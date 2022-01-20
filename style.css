@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 70px;
+    background-color: #964b00;
+    align-items: center;
+}
+.header {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px;
+    
+}
+.map-button {
+    padding: 20px;
+    border: 1px solid gray;
+    color: white;
+    background-color: #964b00;
+    width: 150px;
+
+    
+}
+.table-button {
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: #964b00;
+    width: 150px;
+    color: white;
+}
+main {
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.img-panel {
+    display: flex;
+    margin: 10px;
+}
